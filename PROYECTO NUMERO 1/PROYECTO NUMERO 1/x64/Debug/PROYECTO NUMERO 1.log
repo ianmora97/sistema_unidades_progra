@@ -1,0 +1,53 @@
+﻿  unidad.cpp
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(14): error C2061: syntax error: identifier 'IdUnidad'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C2143: syntax error: missing ';' before '*'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C2238: unexpected token(s) preceding ';'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(13): error C2061: syntax error: identifier 'IdUnidad'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C2143: syntax error: missing ';' before '*'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C2238: unexpected token(s) preceding ';'
+  tiquete.cpp
+  terminalb.cpp
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(14): error C2061: syntax error: identifier 'IdUnidad'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C2143: syntax error: missing ';' before '*'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C2238: unexpected token(s) preceding ';'
+  terminala.cpp
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(13): error C2061: syntax error: identifier 'IdUnidad'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C2143: syntax error: missing ';' before '*'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C2238: unexpected token(s) preceding ';'
+  Persona.cpp
+  main.cpp
+  interfaz.cpp
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(14): error C2061: syntax error: identifier 'IdUnidad'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C2143: syntax error: missing ';' before '*'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C2238: unexpected token(s) preceding ';'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(13): error C2061: syntax error: identifier 'IdUnidad'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C2143: syntax error: missing ';' before '*'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C2238: unexpected token(s) preceding ';'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\interfaz.cpp(284): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  idUnidad.cpp
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(14): error C2061: syntax error: identifier 'IdUnidad'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C2143: syntax error: missing ';' before '*'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C2238: unexpected token(s) preceding ';'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(13): error C2061: syntax error: identifier 'IdUnidad'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C2143: syntax error: missing ';' before '*'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C2238: unexpected token(s) preceding ';'
+  empresaDatos.cpp
+  carrera.cpp
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(14): error C2061: syntax error: identifier 'IdUnidad'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C2143: syntax error: missing ';' before '*'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminala.h(21): error C2238: unexpected token(s) preceding ';'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(13): error C2061: syntax error: identifier 'IdUnidad'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C2143: syntax error: missing ';' before '*'
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\flaco\desktop\progra\proyectos\proyecto numero 1\proyecto numero 1\proyecto numero 1\terminalb.h(21): error C2238: unexpected token(s) preceding ';'
+  asiento.cpp
+  Generating Code...
