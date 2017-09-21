@@ -227,43 +227,338 @@ void interfaz::menu(){
 			i.setCicloMenu(true);
 		}
 		int opcEvaluar;
+		int cambiar;
+		int disp;
+		int term;
 		if (opc == 6) {
 			system("cls");
 			cout << "Que unidad desea evaluar?"<<endl;
 			cout << "1-2-3-4-5-6-7-8 \n> ";
 			cin >> opcEvaluar;
 			if (opcEvaluar == 1) {
-				
 				u1.revisaDisponibilidad();
+				cout << "Desea cambiar el estado y la disponibilidad?";
+				cout << " \n[1] Y \n[2] N" << endl;
+				cin >> cambiar;
+				if (cambiar==1) {
+					cout << " \t\tEstado:"<<endl;
+					cout << " \t[1]En uso \n\t[2]En terminal (A-B) \n\t[3]Mantenimiento" << endl;
+					cout << " \n\t\tDisponibilidad:"<<endl;
+					cout << " \t[4]En uso \n\t[5]No en uso"<<endl;
+					cin >> disp;
+					if (disp==1) {
+						u1.setEstado('u');
+					}
+					else if (disp==2){
+						cout << "[1]Terminal A \n[2]Terminal B"<<endl;
+						cin >> term;
+						if (term==1) {
+							u1.setEstado('A');
+						}
+						else if (term==2) {
+							u1.setEstado('B');
+						}
+					}
+					else if (disp==3) {
+						u1.setEstado('M');
+					}
+					else if (disp==4) {
+						u1.setDisponibilidad('U');
+					}
+					else if (disp==5) {
+						u1.setDisponibilidad('N');
+					}
+				}
+				else if (cambiar==2) {
+					i.setCicloMenu(true);
+				}
+				system("pause");
+				i.setCicloMenu(true);
 			}
 			if (opcEvaluar == 2) {
 				u2.revisaDisponibilidad();
+				cout << "Desea cambiar el estado y la disponibilidad?";
+				cout << " \n[1] Y \n[2] N" << endl;
+				cin >> cambiar;
+				if (cambiar == 1) {
+					cout << " \t\tEstado:" << endl;
+					cout << " \t[1]En uso \n\t[2]En terminal (A-B) \n\t[3]Mantenimiento" << endl;
+					cout << " \n\t\tDisponibilidad:" << endl;
+					cout << " \t[4]En uso \n\t[5]No en uso" << endl;
+					cin >> disp;
+					if (disp == 1) {
+						u2.setEstado('u');
+					}
+					else if (disp == 2) {
+						cout << "[1]Terminal A \n[2]Terminal B" << endl;
+						cin >> term;
+						if (term == 1) {
+							u2.setEstado('A');
+						}
+						else if (term == 2) {
+							u2.setEstado('B');
+						}
+					}
+					else if (disp == 3) {
+						u2.setEstado('M');
+					}
+					else if (disp == 4) {
+						u2.setDisponibilidad('U');
+					}
+					else if (disp==5) {
+						u2.setDisponibilidad('N');
+					}
+				}
+				else if (cambiar == 2) {
+					i.setCicloMenu(true);
+				}
+				system("pause");
+				i.setCicloMenu(true);
 			}
 			if (opcEvaluar == 3) {
 				u3.revisaDisponibilidad();
+				cout << "Desea cambiar el estado y la disponibilidad?";
+				cout << " \n[1] Y \n[2] N" << endl;
+				cin >> cambiar;
+				if (cambiar == 1) {
+					cout << " \t\tEstado:" << endl;
+					cout << " \t[1]En uso \n\t[2]En terminal (A-B) \n\t[3]Mantenimiento" << endl;
+					cout << " \n\t\tDisponibilidad:" << endl;
+					cout << " \t[4]En uso \n\t[5]No en uso" << endl;
+					cin >> disp;
+					if (disp == 1) {
+						u3.setEstado('u');
+					}
+					else if (disp == 2) {
+						cout << "[1]Terminal A \n[2]Terminal B" << endl;
+						cin >> term;
+						if (term == 1) {
+							u3.setEstado('A');
+						}
+						else if (term == 2) {
+							u3.setEstado('B');
+						}
+					}
+					else if (disp == 3) {
+						u3.setEstado('M');
+					}
+					else if (disp == 4) {
+						u3.setDisponibilidad('U');
+					}
+					else if (disp == 5) {
+						u3.setDisponibilidad('N');
+					}
+				}
+				else if (cambiar == 2) {
+					i.setCicloMenu(true);
+				}
+				system("pause");
+				i.setCicloMenu(true);
 			}
 			if (opcEvaluar == 4) {
 				u4.revisaDisponibilidad();
+				cout << "Desea cambiar el estado y la disponibilidad?";
+				cout << " \n[1] Y \n[2] N" << endl;
+				cin >> cambiar;
+				if (cambiar == 1) {
+					cout << " \t\tEstado:" << endl;
+					cout << " \t[1]En uso \n\t[2]En terminal (A-B) \n\t[3]Mantenimiento" << endl;
+					cout << " \n\t\tDisponibilidad:" << endl;
+					cout << " \t[4]En uso \n\t[5]No en uso" << endl;
+					cin >> disp;
+					if (disp == 1) {
+						u4.setEstado('u');
+					}
+					else if (disp == 2) {
+						cout << "[1]Terminal A \n[2]Terminal B" << endl;
+						cin >> term;
+						if (term == 1) {
+							u4.setEstado('A');
+						}
+						else if (term == 2) {
+							u4.setEstado('B');
+						}
+					}
+					else if (disp == 3) {
+						u4.setEstado('M');
+					}
+					else if (disp == 4) {
+						u4.setDisponibilidad('U');
+					}
+					else if (disp == 5) {
+						u4.setDisponibilidad('N');
+					}
+				}
+				else if (cambiar == 2) {
+					i.setCicloMenu(true);
+				}
+				system("pause");
+				i.setCicloMenu(true);
 			}
 			if (opcEvaluar == 5) {
 				u5.revisaDisponibilidad();
+				cout << "Desea cambiar el estado y la disponibilidad?";
+				cout << " \n[1] Y \n[2] N" << endl;
+				cin >> cambiar;
+				if (cambiar == 1) {
+					cout << " \t\tEstado:" << endl;
+					cout << " \t[1]En uso \n\t[2]En terminal (A-B) \n\t[3]Mantenimiento" << endl;
+					cout << " \n\t\tDisponibilidad:" << endl;
+					cout << " \t[4]En uso \n\t[5]No en uso" << endl;
+					cin >> disp;
+					if (disp == 1) {
+						u5.setEstado('u');
+					}
+					else if (disp == 2) {
+						cout << "[1]Terminal A \n[2]Terminal B" << endl;
+						cin >> term;
+						if (term == 1) {
+							u5.setEstado('A');
+						}
+						else if (term == 2) {
+							u5.setEstado('B');
+						}
+					}
+					else if (disp == 3) {
+						u5.setEstado('M');
+					}
+					else if (disp == 4) {
+						u5.setDisponibilidad('U');
+					}
+					else if (disp == 5) {
+						u5.setDisponibilidad('N');
+					}
+				}
+				else if (cambiar == 2) {
+					i.setCicloMenu(true);
+				}
+				system("pause");
+				i.setCicloMenu(true);
 			}
 			if (opcEvaluar == 6) {
 				u6.revisaDisponibilidad();
+				cout << "Desea cambiar el estado y la disponibilidad?";
+				cout << " \n[1] Y \n[2] N" << endl;
+				cin >> cambiar;
+				if (cambiar == 1) {
+					cout << " \t\tEstado:" << endl;
+					cout << " \t[1]En uso \n\t[2]En terminal (A-B) \n\t[3]Mantenimiento" << endl;
+					cout << " \n\t\tDisponibilidad:" << endl;
+					cout << " \t[4]En uso \n\t[5]No en uso" << endl;
+					cin >> disp;
+					if (disp == 1) {
+						u6.setEstado('u');
+					}
+					else if (disp == 2) {
+						cout << "[1]Terminal A \n[2]Terminal B" << endl;
+						cin >> term;
+						if (term == 1) {
+							u6.setEstado('A');
+						}
+						else if (term == 2) {
+							u6.setEstado('B');
+						}
+					}
+					else if (disp == 3) {
+						u6.setEstado('M');
+					}
+					else if (disp == 4) {
+						u6.setDisponibilidad('U');
+					}
+					else if (disp == 5) {
+						u6.setDisponibilidad('N');
+					}
+				}
+				else if (cambiar == 2) {
+					i.setCicloMenu(true);
+				}
+				system("pause");
+				i.setCicloMenu(true);
 			}
 			if (opcEvaluar == 7) {
 				u7.revisaDisponibilidad();
+				cout << "Desea cambiar el estado y la disponibilidad?";
+				cout << " \n[1] Y \n[2] N" << endl;
+				cin >> cambiar;
+				if (cambiar == 1) {
+					cout << " \t\tEstado:" << endl;
+					cout << " \t[1]En uso \n\t[2]En terminal (A-B) \n\t[3]Mantenimiento" << endl;
+					cout << " \n\t\tDisponibilidad:" << endl;
+					cout << " \t[4]En uso \n\t[5]No en uso" << endl;
+					cin >> disp;
+					if (disp == 1) {
+						u7.setEstado('u');
+					}
+					else if (disp == 2) {
+						cout << "[1]Terminal A \n[2]Terminal B" << endl;
+						cin >> term;
+						if (term == 1) {
+							u7.setEstado('A');
+						}
+						else if (term == 2) {
+							u7.setEstado('B');
+						}
+					}
+					else if (disp == 3) {
+						u7.setEstado('M');
+					}
+					else if (disp == 4) {
+						u7.setDisponibilidad('U');
+					}
+					else if (disp == 5) {
+						u7.setDisponibilidad('N');
+					}
+				}
+				else if (cambiar == 2) {
+					i.setCicloMenu(true);
+				}
+				system("pause");
+				i.setCicloMenu(true);
 			}
 			if (opcEvaluar == 8) {
 				u8.revisaDisponibilidad();
+				cout << "Desea cambiar el estado y la disponibilidad?";
+				cout << " \n[1] Y \n[2] N" << endl;
+				cin >> cambiar;
+				if (cambiar == 1) {
+					cout << " \t\tEstado:" << endl;
+					cout << " \t[1]En uso \n\t[2]En terminal (A-B) \n\t[3]Mantenimiento" << endl;
+					cout << " \n\t\tDisponibilidad:" << endl;
+					cout << " \t[4]En uso \n\t[5]No en uso" << endl;
+					cin >> disp;
+					if (disp == 1) {
+						u8.setEstado('u');
+					}
+					else if (disp == 2) {
+						cout << "[1]Terminal A \n[2]Terminal B" << endl;
+						cin >> term;
+						if (term == 1) {
+							u8.setEstado('A');
+						}
+						else if (term == 2) {
+							u8.setEstado('B');
+						}
+					}
+					else if (disp == 3) {
+						u8.setEstado('M');
+					}
+					else if (disp == 4) {
+						u8.setDisponibilidad('U');
+					}
+					else if (disp == 5) {
+						u8.setDisponibilidad('N');
+					}
+				}
+				else if (cambiar == 2) {
+					i.setCicloMenu(true);
+				}
+				system("pause");
+				i.setCicloMenu(true);
 			}
-
-			system("pause");
-			i.setCicloMenu(true);
 		}
 		if (opc==7) {
 			system("cls");
-			a.imprimeUnidad();
+			
 			system("pause");
 		}
     }

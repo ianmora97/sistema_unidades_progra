@@ -20,6 +20,8 @@ void Carrera::calcularRuta() { //pide que posicion de unidad
 	string nombre;
 	string id;
 
+
+
 	int opc; //opcion general
 	int opc1;// opcion despues de elegir la opcion general 1
 	int opc2;
@@ -84,6 +86,7 @@ void Carrera::calcularRuta() { //pide que posicion de unidad
 					cin >> id;
 					p.setId(id);
 					a.insertaEl(p);
+					cuentaCarreras();
 					//un clean screen aqui
 					a.imprimeClientes();
 					a.imprimeUnidad();
@@ -112,6 +115,7 @@ void Carrera::calcularRuta() { //pide que posicion de unidad
 					cin >> id;
 					p.setId(id);
 					a.insertaEl(p);
+					cuentaCarreras();
 					//un clean screen aqui
 					a.imprimeClientes();
 					a.imprimeUnidad();
@@ -163,6 +167,7 @@ void Carrera::calcularRuta() { //pide que posicion de unidad
 				cin >> id;
 				p.setId(id);
 				a.insertaEl(p);
+				cuentaCarreras();
 				//un clean screen aqui
 				a.imprimeClientes();
 				a.imprimeUnidad();
@@ -191,6 +196,7 @@ void Carrera::calcularRuta() { //pide que posicion de unidad
 				cin >> id;
 				p.setId(id);
 				a.insertaEl(p);
+				cuentaCarreras();
 				//un clean screen aqui
 				a.imprimeClientes();
 				a.imprimeUnidad();
@@ -204,6 +210,17 @@ void Carrera::calcularRuta() { //pide que posicion de unidad
 
 }
 void Carrera::asignaEstado() {
+}
+
+void Carrera::imprimeCarreras() {
+	EmpresaDatos emp;	
+	cout << "La empresa " << emp.getNombreEmpresa() << " tiene " << getCarreras() << " carreras realizadas" << endl;
+}
+void Carrera::cuentaCarreras() {
+	carreras++;
+}
+int Carrera::getCarreras() {
+	return carreras;
 }
 Carrera::~Carrera(){
 

@@ -11,6 +11,9 @@ public:
 	Carrera();
 	void calcularRuta();
 	void asignaEstado();
+	void imprimeCarreras();
+	void cuentaCarreras();
+	int getCarreras();
 	~Carrera();
 
 private:
@@ -18,6 +21,7 @@ private:
 	int hora2;
 	int monto;
 	char ruta;
+	int carreras;
 };
 
 
